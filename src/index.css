@@ -1,3 +1,4 @@
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -100,10 +101,6 @@ header.header-container .user-button button:hover {
   color: #fff;
   border: 2px solid #fff;
 } 
-
-header.header-container .user-button button i{
-  margin-right: 5px;
-}
 
 .content {
   max-width: 1080px;

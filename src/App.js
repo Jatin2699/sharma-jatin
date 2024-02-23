@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import '@fortawesome/fontawesome-free/css/all.css';
 import HeaderLogo from './HeaderLogo';
 
 // Sidebar component
@@ -7,9 +6,9 @@ const Sidebar = () => {
   return (
     <div className="sidebar">
       <ul className="menu">
-        <li><a href="/"><i className="fa fa-home"></i> Home</a></li>
-        <li><a href="/"><i className="fa fa-user"></i> Profile</a></li>
-        <li><a href="/"><i className="fa fa-envelope"></i> Messages</a></li>
+        <li><a href="/">Home</a></li>
+        <li><a href="/">Profile</a></li>
+        <li><a href="/">Messages</a></li>
       </ul>
     </div>
   );
@@ -91,7 +90,7 @@ const App = () => {
           <Sidebar />
           <HeaderLogo />
           <div className="user-button">
-            <button onClick={() => setShowForm(true)}> <i className="fas fa-plus"></i>Add User</button>
+            <button onClick={() => setShowForm(true)}>Add User</button>
           </div>
         </div>
       </header>
